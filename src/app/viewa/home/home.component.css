@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-image:linear-gradient(to left, aqua, red)
+}
+h1 {
+    font-size: 1.5rem;
+    padding: 20px;
+    
+}
+.formulario{
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+label{
+    display: flex;
+    color: #fff;
+}
+.bloco{
+    padding: 35px;
+    width: 65vh;
+    height: 75vh;
+    /* background-color: cadetblue; */
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border: solid black;
+}
+.email{
+    border: none;
+    height: 20vh;
+}
+a{
+    color: white;
+    text-decoration: none;
+    border: solid black;
+}
+
+.senha{
+    height: 20vh;
+}
+button{
+    width: 30vh;
+    border-radius: 10px;
+    background-color: rgb(13, 13, 14);
+    padding: 10px;
+    color: white;
+    cursor: pointer;
+}
+input:focus{
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+
+input[type="password" i] {
+    border-radius: 5px;
+    width: 50vh;
+    border: none;
+    padding: 10px;
+}
+input[type="email" i]{
+    width: 50vh;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
