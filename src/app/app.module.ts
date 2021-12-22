@@ -8,6 +8,7 @@ import { HomeComponent } from './viewa/home/home.component';
 import { ContatoComponent } from './viewa/contato/contato.component';
 import { SobreComponent } from './viewa/sobre/sobre.component';
 import { HeaderComponent } from './viewa/header/header.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { HeaderComponent } from './viewa/header/header.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

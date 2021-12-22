@@ -1,0 +1,24 @@
+{
+    "login": [{
+            "id": 1,
+            "usuario": "Brendon Fernandes",
+            "senha": "12345678",
+            "email": "Brendon@123"
+        },
+        {
+            "usuario": "Emersom",
+            "senha": "Emersom1234",
+            "id": 2
+        },
+        {
+            "usuario": "Emersom",
+            "senha": "Emersom123",
+            "id": 3
+        },
+        {
+            "usuario": "Barbara",
+            "senha": "Isa12345",
+            "id": 4
+        }
+    ]
+}
